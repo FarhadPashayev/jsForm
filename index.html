@@ -9,7 +9,35 @@
 </head>
 <body>
     
-
+    <div id="container">
+        <div id="left_container">
+            <div id="form_box">
+                <h1 id="register">Register with Us</h1>
+                <form id="formID" action="#">
+                    <label class="labels" for="username">Username</label><br>
+                    <input class="inputs" type="text" name="username" id="usernameID" placeholder="Enter username"><br>
+                    <p class="errors" id="username_error"></p>
+                    <label class="labels" for="email">Email</label><br>
+                    <input class="inputs" type="email" name="email" id="emailID" placeholder="Enter email"><br>
+                    <p class="errors" id="email_error"></p>
+                    <label class="labels" for="password">Password</label><br>
+                    <input class="inputs" type="password" name="password" id="passwordID"
+                        placeholder="Enter password"><br>
+                    <p class="errors" id="password_error"></p>
+                    <label class="labels" for="confirm_password">Confirm Password</label><br>
+                    <input class="inputs" type="password" name="confirm_password" id="confirm_passwordID"
+                        placeholder="Enter password again"><br>
+                    <p class="errors" id="confirm_password_error"></p>
+                    <button id="button" type="submit">Submit</button>
+                </form>
+            </div>
+        </div>
+        <div id="right_container">
+            <div id="usersProfile">
+                <ul id="usersList"></ul>
+            </div>
+        </div>
+    </div>
 
 
     <script src="js/form.js"></script>
