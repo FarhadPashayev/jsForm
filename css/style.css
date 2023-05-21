@@ -74,13 +74,14 @@
   }
   
   #button {
-    background-color: blue;
+    background-color: yellowgreen;
     color: white;
     border: none;
     padding: 10px;
     border-radius: 10px;
-    width: 290px;
+    width: 270px;   
     margin-top: 10px;
+    
   }
   
   #button:hover {
